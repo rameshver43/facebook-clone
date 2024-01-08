@@ -1,0 +1,133 @@
+
+ .login {
+     display: flex;
+    padding-top: 25px;
+    background: #f0f2f5;
+    gap: 20px;
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+/* -- media query */
+
+@media screen and (min-width: 850px) {
+ .login{
+    display: flex;
+    padding: 25px;
+    padding-top: 50px;
+    background: #f0f2f5;
+    gap: 20px;
+    flex-direction: row;
+}
+.login-left{
+    width: 100% !important;
+    margin-top: 50px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.login-splitter{
+    width: 360px !important;
+}
+    .login-left img{
+        width: 300px;
+        margin-left: -25px;
+    }
+    .login-form button{
+    width: 360px !important;
+}
+}
+.login-left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 0px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-left img{
+    width: 300px;
+}
+.login-left span{
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+}
+
+.login-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-right-top{
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 20px 0 28px;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 15px;
+    gap: 10px;
+}
+
+
+.login-form button{
+    width: 320px;
+}
+.forgot-link{
+    margin-top: 16px;
+    color: #1877F2;
+}
+.forgot-link:hover{
+    text-decoration: underline;
+}
+
+.login-splitter{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+    width: 320px;
+}
+.signup-btn-wrap{
+        padding-top: 6px;
+}
+.login-right-bottom{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.login-right-bottom-heading-link{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.login-right-bottom-heading-link:hover{
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
